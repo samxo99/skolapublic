@@ -1,0 +1,115 @@
+
+@font-face {
+    font-family: 'ALK Rex Bold';
+    src: url('../fonts/alk-rex-bold-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/alk-rex-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/alk-rex-bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/alk-rex-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/alk-rex-bold-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/alk-rex-bold-webfont.svg#alk_rexbold') format('svg'); /* Legacy iOS */
+}
+
+.dark {
+background-color: #ccc;
+padding-bottom: 15px;
+}
+
+
+.px15{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.nope {
+  padding-top: 53px;
+}
+
+.nope1 {
+  margin-bottom: 53px;
+}
+
+@media  (min-width: 0px) {
+.on-text  {
+
+  position:absolute;
+  top: 0%;
+  right: 0%;
+
+  color: white;
+  background-color:rgba(0,0,0,0.3);
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'ALK Rex Bold';
+
+  font-size: 15px;
+  max-width: 535px;
+}
+
+
+
+}
+
+@media  (min-width: 535px) {
+.on-text  {
+
+  position:absolute;
+  top: 50%;
+  right: 0%;
+  color: white;
+  background-color:rgba(0,0,0,0.3);
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'ALK Rex Bold';
+
+  font-size: 40px;
+  max-width: 99999px;
+}
+}
+
+
+.mtavari-foto{
+  position:relative;
+}
+
+.col-12{
+  top: 0%;
+  right: 0%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.navbar-nav{
+  font-family: 'ALK Rex Bold';
+}
+.navbar-brand{
+  font-family: 'ALK Rex Bold';
+}
+/* h1 h2  {
+  font-family: 'ALK Rex Bold';
+} */
+.bpg {
+    font-family: "BPG Nino Mkhedruli Bold", sans-serif;
+}
+label {
+  font-family: 'ALK Rex Bold';
+}
+.carousel-caption {
+  color: #002db3;
+}
+.skill{
+  border:15px solid;
+  border-color:  #ccc;
+}
+.carousel-control-prev {
+  background-color: rgba(204, 204, 204, 0.0);
+}
+.carousel-control-next{
+  background-color: rgba(204, 204, 204, 0.0);
+}
+img  { width: 100%; }
+
+.description {
+ color: black;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ padding: 0px;
+ }
